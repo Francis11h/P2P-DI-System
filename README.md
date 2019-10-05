@@ -109,6 +109,4 @@ you need to input '7' to Leave the RS
 you need to input '8' to Get help
 
 
-Hope this help! 
 
-2019.10.1
