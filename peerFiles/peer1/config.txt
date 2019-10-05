@@ -1,0 +1,11 @@
+cookie:
+rfc8423.txt,pdf,NULL
+rfc8424.txt,pdf,NULL
+rfc8425.txt,pdf,NULL
+rfc8426.txt,pdf,NULL
+rfc8427.txt,pdf,NULL
+rfc8428.txt,pdf,NULL
+rfc8429.txt,pdf,NULL
+rfc8430.txt,pdf,NULL
+rfc8431.txt,pdf,NULL
+rfc8432.txt,pdf,NULL

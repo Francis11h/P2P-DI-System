@@ -1,0 +1,11 @@
+cookie:
+rfc8466.txt,pdf,NULL
+rfc8467.txt,pdf,NULL
+rfc8470.txt,pdf,NULL
+rfc8471.txt,pdf,NULL
+rfc8472.txt,pdf,NULL
+rfc8473.txt,pdf,NULL
+rfc8474.txt,pdf,NULL
+rfc8475.txt,pdf,NULL
+rfc8477.txt,pdf,NULL
+rfc8478.txt,pdf,NULL
