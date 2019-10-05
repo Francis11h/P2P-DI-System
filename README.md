@@ -111,6 +111,4 @@ you need to input '8' to Get help
 
 Hope this help! 
 
-By Xuyang & ZirunHan  
-
 2019.10.1
