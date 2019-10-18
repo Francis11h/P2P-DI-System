@@ -13,13 +13,13 @@
     <session id="238762230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -89,6 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -97,29 +99,10 @@
               <item name="P2P-DI System" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2P-DI System" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="P2P-DI System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-DI System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2P-DI System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-DI System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2P-DI System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-DI System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rsServer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +176,7 @@
       <workItem from="1570300448064" duration="9000" />
       <workItem from="1570303494792" duration="5000" />
       <workItem from="1570673759583" duration="5000" />
+      <workItem from="1570979917709" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="P2P-DI System &#10;&#10;2019.10.5">
       <created>1570300128543</created>
@@ -212,12 +196,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1365000" />
+    <option name="totallyTimeSpent" value="1372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="109" width="1184" height="717" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21628721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21978985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
