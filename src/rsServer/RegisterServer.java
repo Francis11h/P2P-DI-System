@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class RegisterServer implements Runnable{
+public class RegisterServer implements Runnable {
 
     private ServerSocket serverSocket;
 
@@ -17,11 +17,11 @@ public class RegisterServer implements Runnable{
 
     public RegisterServer(int port) throws IOException {
         serverSocket = new ServerSocket(port);
+        peerList = new LinkedList<>();
+
         System.out.println("registerServer starting at: " + serverSocket.getLocalPort() + "...");
         System.out.println(InetAddress.getLocalHost().getHostAddress());
         System.out.println("OS: " + System.getProperty("os.name"));
-//        serverSocket.setSoTimeout(10000000);
-        peerList = new LinkedList<>();
     }
 
     @Override
@@ -235,10 +235,11 @@ public class RegisterServer implements Runnable{
         if (args.length == 1) {
             int port = Integer.parseInt(args[0]);
             try {
-                // just new a RS server
-                RegisterServer a = new RegisterServer(port);
-                Thread rs = new Thread(a, "registerServerThread");  // a is an obj ref variable of class RegisterServer which implements Runnable
-                rs.start();
+//                // just new a RS server
+//                RegisterServer a = new RegisterServer(port);
+//                Thread rs = new Thread(a, "registerServerThread");  // a is an obj ref variable of class RegisterServer which implements Runnable
+//                rs.start();
+                new Thread(new RegisterServer(port)).start();
             } catch (IOException e) {
                 e.printStackTrace();
             }

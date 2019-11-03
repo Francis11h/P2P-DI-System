@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class PeerInfo implements Serializable {
+public class PeerInfo {
 
     private static Integer cookie_count = 1;
 

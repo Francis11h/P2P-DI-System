@@ -9,17 +9,18 @@ import java.util.Scanner;
 
 public class Peer implements Runnable{
 
-    PeerClient client;
-    int serverPort;
+    private PeerClient client;
     List<FileIndex> files;
     int cookie = -1;
+
+    int serverPort;
     String peerServerHostname;
 
     final String folderLocation = "/Users/hanzirun/P2P-DI System/peerFiles/peer2/";
 
     @Override
-    public void run(){
-
+    public void run() {
+        // 每次 peer 开始 run的时候 是 作为 server的
         // set up the server
         PeerServer peerServer = new PeerServer(this);
         peerServer.handler(serverPort);
