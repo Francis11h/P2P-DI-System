@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class TestClient {
 
-    static String folderLocation = "/Users/xuyang/Desktop/peer2/";
+    static String folderLocation = "/Users/hanzirun/Desktop/peer2/";
 
     public static void main(String[] args) {
         try {

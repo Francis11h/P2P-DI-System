@@ -6,10 +6,9 @@ import java.net.Socket;
 
 public class TestServer {
 
-    static String folderLocation = "/Users/xuyang/Desktop/peer1/";
+    static String folderLocation = "/Users/hanzirun/Desktop/peer1/";
 
     public static void main(String[] args) {
-
         try {
 
             ServerSocket serverSocket = new ServerSocket(4396);
